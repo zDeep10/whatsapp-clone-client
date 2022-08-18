@@ -1,9 +1,12 @@
 import React from "react";
+import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 const Header = () => {
     return (
         <header>
-            <nav></nav>
+            <nav>
+                <img src={Logo} alt="" />
+            </nav>
         </header>
     )
 }

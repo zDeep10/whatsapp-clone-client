@@ -1,10 +1,10 @@
 import React from "react";
-import Section from "./style";
+// import Section from "./style";
 
 
 const Cardapio = () => {
     return (
-        <Section>
+        <section>
             <div className="container h-100">
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="text-center">
@@ -12,7 +12,7 @@ const Cardapio = () => {
                     </div>
                 </div>
             </div>
-        </Section>
+        </section>
     )
 }
 
