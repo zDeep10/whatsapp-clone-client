@@ -13,7 +13,7 @@ const Chat = () => {
                 {/* SEND MESSAGES */}
                 <div className="col-12">
                     <Form id="form" action="">
-                        <Input id="input" placeholder="Sendo Messages Here" autoComplete="off" />
+                        <Input id="input" placeholder="send messages" autoComplete="off" />
                         <button>Send</button>
                     </Form>
                 </div>
