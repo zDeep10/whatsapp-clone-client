@@ -1,9 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Form from "../../components/Form/Form";
 import { Background, Col } from "./style";
-import UsersData from "../../data/users.json"
+import data from "../../data/users.json"
 
 const Login = () => {
+
+    // type UserType = {
+    //     name: string
+    //     email: string
+    //     senha: string
+    // }
+
+    const [usersData, setUsersData] = useState(data);
+
+    // useEffect(() => {
+
+    //     function gettingData() {
+    //         setUsersData(data)
+    //     }
+
+    //     gettingData();
+
+    //     console.log(usersData)
+    // }, []);
+
 
     return (
         <Background>

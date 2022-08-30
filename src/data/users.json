@@ -1,17 +1,19 @@
-[
-  {
-    "name": "Gabriel",
-    "email": "gabriel-gontijo02@hotmail.com",
-    "senha": "biel1023"
-  },
-  {
-    "name": "Lucas",
-    "email": "lucas-gontijo02@hotmail.com",
-    "senha": "lucas1023"
-  },
-  {
-    "name": "Felipe",
-    "email": "felipe-gontijo02@hotmail.com",
-    "senha": "felipe1023"
-  }
-]
+{
+  "users": [
+    {
+      "name": "Gabriel",
+      "email": "gabriel-gontijo02@hotmail.com",
+      "pass": "biel1023"
+    },
+    {
+      "name": "Lucas",
+      "email": "lucas-gontijo02@hotmail.com",
+      "pass": "lucas1023"
+    },
+    {
+      "name": "Felipe",
+      "email": "felipe-gontijo02@hotmail.com",
+      "pass": "felipe1023"
+    }
+  ]
+}
